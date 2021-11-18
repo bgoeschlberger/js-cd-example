@@ -1,0 +1,40 @@
+{
+  "name": "js-cd-example",
+  "version": "1.0.0",
+  "description": "simple example for JS continous deployment",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "serve": "webpack serve --mode=development",
+    "build": "webpack --mode=production",
+    "dev-build": "webpack --mode=development"
+  },
+  "jest": {
+    "transform": {
+      "\\.js$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgoeschlberger/js-cd-example.git"
+  },
+  "keywords": [
+    "continous",
+    "deployment",
+    "example"
+  ],
+  "author": "bgoeschlberger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bgoeschlberger/js-cd-example/issues"
+  },
+  "homepage": "https://github.com/bgoeschlberger/js-cd-example#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.3.1",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}

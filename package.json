@@ -11,7 +11,7 @@
   },
   "jest": {
     "transform": {
-      "^.*[/\\\\]src[/\\\\].+\\.js$": "babel-jest"
+      "\\.js$": "babel-jest"
     }
   },
   "repository": {

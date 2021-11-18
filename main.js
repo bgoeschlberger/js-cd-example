@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.getElementById("calcArea"),t=document.createElement("input"),n=document.createElement("input"),d=document.createElement("button");d.innerHTML="Add",d.addEventListener("click",(()=>alert(calculator.add(t.value,n.value)))),e.appendChild(t),e.appendChild(n),e.appendChild(d)})();
